@@ -1,0 +1,18 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>Name</h1>
+      <hr>
+      <form action="/formtest" method="POST"> <!--We pass the URL of the route we want to post the form data to in the action attribute of the form.-->
+        <!--You'll also need to pass the request method to the method attribute in the opening <form> tag. We've added method="POST" because we're POSTing data to the server.-->
+
+        <div class="form-group">
+          <label>Username</label>
+          <input type="text" class="form-control" id="username" name="username" placeholder="Enter your name">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
